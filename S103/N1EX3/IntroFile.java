@@ -13,7 +13,7 @@ public class IntroFile {
         String linea;
 
         try {
-            mybuffer = new BufferedReader(new FileReader("C:\\Users\\formacio\\Desktop\\Java\\Sprint 1\\src\\S103\\N1EX3\\countries.txt"));
+            mybuffer = new BufferedReader(new FileReader("countries.txt"));
 
             while ((linea = mybuffer.readLine()) != null) {
                 StringTokenizer words = new StringTokenizer(linea);

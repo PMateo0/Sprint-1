@@ -1,10 +1,7 @@
 package S103.N2EX1;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.sql.SQLOutput;
-import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.TreeSet;
 
 
 public class Main {
@@ -16,10 +13,8 @@ public class Main {
             rSet.add(new Restaurant( "Kebab Ali",6));
             rSet.add(new Restaurant("Kebab Ali",10));
 
-
-            for(Restaurant restaurant:rSet){
-                System.out.println("El nombre del restaurante es: " + restaurant.getName() + " y su puntuación: " + restaurant.getPunctuation());
-            }
+        TreeSet<Restaurant>e = new TreeSet<>(rSet);
+        System.out.println(e);
 
 
     }
