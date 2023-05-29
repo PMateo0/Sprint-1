@@ -25,7 +25,7 @@ public class ListaMeses {
     public ArrayList<String> getMeses() {
         return meses;
     }
-    public String getMonth(){
+    public String getIndex(){
         return meses.get(7);
     }
 }

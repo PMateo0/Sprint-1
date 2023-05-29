@@ -24,7 +24,7 @@ public class TestCalculateDni {
 
     void TestCalculate(String numDni, String letter){
         CalculateDni calculateDni = new CalculateDni();
-        String newLetter = calculateDni.calculateLetter(numDni,calculateDni.addLetters());
+        String newLetter = calculateDni.calculateLetter(numDni,calculateDni.addList());
         assertEquals(letter,newLetter);
     }
 }

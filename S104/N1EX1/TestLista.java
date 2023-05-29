@@ -21,6 +21,6 @@ public class TestLista {
 
     @Test
     public  void assertEqualsTry(){
-        assertEquals(listaMeses.getMonth(),"Agosto");
+        assertEquals(listaMeses.getIndex(),"Agosto");
     }
 }
