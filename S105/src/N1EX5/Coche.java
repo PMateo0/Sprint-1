@@ -1,9 +1,9 @@
 package N1EX5;
 
 public class Coche {
-    protected String brand;
-    protected String model;
-    protected int horsepower;
+    private String brand;
+    private String model;
+    private int horsepower;
 
     public Coche(String brand, String model, int horsepower){
         this.brand = brand;

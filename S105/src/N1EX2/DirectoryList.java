@@ -15,7 +15,7 @@ public class DirectoryList {
         ArrayList<File> listaArchivos = new ArrayList<File>(List.of(archivos));
         if (archivos == null || archivos.length == 0) {
             System.out.println("No hay elementos dentro de la carpeta actual");
-            return;
+
         } else {
             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
             for (int i = 0; i < listaArchivos.size(); i++) {
