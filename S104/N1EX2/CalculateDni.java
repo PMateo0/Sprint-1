@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CalculateDni {
 
-    protected final ArrayList<String>indexLetter;
+    private final ArrayList<String>indexLetter;
 
     public CalculateDni() {
         indexLetter = new ArrayList<>();

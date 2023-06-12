@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class ListaMeses {
 
-    ArrayList<String> meses;
+    private final ArrayList<String> meses;
 
 
     public ListaMeses() {
