@@ -2,7 +2,7 @@ package N1EX1;
 
 public class Treballador {
     protected final String name;
-    protected final String surname;
+    protected final  String surname;
     protected double priceHour;
 
     public Treballador(String name, String surname, double priceHour){

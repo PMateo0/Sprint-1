@@ -1,7 +1,7 @@
 package N1EX2;
 
 public class TreballadorPresencial extends Treballador{
-    protected static int gasoline;
+    private final int gasoline;
     public TreballadorPresencial(String name, String surname, double priceHour) {
         super(name, surname, priceHour);
         gasoline = 250;
